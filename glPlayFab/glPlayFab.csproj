@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>glPlayFab</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="PlayFabAllSDK">
+      <HintPath>../../out/PlayFabAllSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../out/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>../../out/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>../../out/Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="NCrontab">
+      <HintPath>../../out/NCrontab.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../out/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>../../out/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>../../out/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.Console">
+      <HintPath>../../out/Serilog.Sinks.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog.Sinks.Debug">
+      <HintPath>../../out/Serilog.Sinks.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../../out/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>../../out/System.IO.Compression.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

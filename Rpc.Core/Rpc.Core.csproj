@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Rpc.Core</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Google.Protobuf">
+      <HintPath>../../out/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../out/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>../../out/Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Backtrace.Unity">
+      <HintPath>../../out/Backtrace.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="deltadna">
+      <HintPath>../../out/deltadna.dll</HintPath>
+    </Reference>
+    <Reference Include="Gameloft.GdidService.Runtime">
+      <HintPath>../../out/Gameloft.GdidService.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Gameloft.Tracking.Core.Runtime">
+      <HintPath>../../out/Gameloft.Tracking.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>../../out/Unity.ResourceManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

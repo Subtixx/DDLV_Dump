@@ -1,0 +1,35 @@
+using Cpp2IlInjected;
+using UnityEngine;
+
+namespace Mdl.Ui
+{
+	[Cpp2IlInjected.Token(Token = "0x2000313")]
+	public class CollectionTooltipCrafting : CollectionTooltip
+	{
+		[Cpp2IlInjected.FieldOffset(Offset = "0x40")]
+		[Cpp2IlInjected.Token(Token = "0x4000EE8")]
+		public RectTransform Elements;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x48")]
+		[Cpp2IlInjected.Token(Token = "0x4000EE9")]
+		public CollectionTooltipElement SellPrice;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x50")]
+		[Cpp2IlInjected.Token(Token = "0x4000EEA")]
+		public SetSizeBasedOnChild SetSize;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x58")]
+		[Cpp2IlInjected.Token(Token = "0x4000EEB")]
+		public PoolManager Pool;
+
+		[Cpp2IlInjected.FieldOffset(Offset = "0x60")]
+		[Cpp2IlInjected.Token(Token = "0x4000EEC")]
+		public TextBase SellTextBase;
+
+		[Cpp2IlInjected.Token(Token = "0x60013DA")]
+		[Cpp2IlInjected.Address(RVA = "0x837160", Offset = "0x835B60", VA = "0x180837160")]
+		public CollectionTooltipCrafting()
+		{
+		}
+	}
+}

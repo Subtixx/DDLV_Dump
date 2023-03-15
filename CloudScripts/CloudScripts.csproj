@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CloudScripts</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="glPlayFab">
+      <HintPath>../../out/glPlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFabAllSDK">
+      <HintPath>../../out/PlayFabAllSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../out/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>../../out/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../out/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>../../out/Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Polly.Runtime">
+      <HintPath>../../out/Polly.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>../../out/Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>../../out/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Meta">
+      <HintPath>../../out/Meta.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

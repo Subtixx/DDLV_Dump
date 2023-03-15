@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Gameloft.Tracking.Device.Runtime</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../out/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Gameloft.Tracking.Core.Runtime">
+      <HintPath>../../out/Gameloft.Tracking.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../out/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../out/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>../../out/Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>../../out/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>../../out/Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../out/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Meta.Definitions</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Google.Protobuf">
+      <HintPath>../../out/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="glPlayFab">
+      <HintPath>../../out/glPlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>../../out/Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Filesystem">
+      <HintPath>../../out/Filesystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>../../out/Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../out/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization">
+      <HintPath>../../out/Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../out/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFabAllSDK">
+      <HintPath>../../out/PlayFabAllSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="EpicSdk">
+      <HintPath>../../out/EpicSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>../../out/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../../out/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Meta">
+      <HintPath>../../out/Meta.dll</HintPath>
+    </Reference>
+    <Reference Include="Game">
+      <HintPath>../../out/Game.dll</HintPath>
+    </Reference>
+    <Reference Include="Log">
+      <HintPath>../../out/Log.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

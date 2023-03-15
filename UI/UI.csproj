@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>UI</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../out/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>../../out/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>../../out/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Game">
+      <HintPath>../../out/Game.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../out/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>../../out/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>../../out/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization">
+      <HintPath>../../out/Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Meta">
+      <HintPath>../../out/Meta.dll</HintPath>
+    </Reference>
+    <Reference Include="Meta.Definitions">
+      <HintPath>../../out/Meta.Definitions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>../../out/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="AK.Wwise.Unity.API.WwiseTypes">
+      <HintPath>../../out/AK.Wwise.Unity.API.WwiseTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>../../out/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>../../out/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>../../out/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../../out/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>../../out/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>../../out/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>../../out/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>../../out/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>../../out/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Core">
+      <HintPath>../../out/Rewired_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>../../out/Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Filesystem">
+      <HintPath>../../out/Filesystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Steamworks">
+      <HintPath>../../out/Steamworks.dll</HintPath>
+    </Reference>
+    <Reference Include="NaughtyAttributes.Core">
+      <HintPath>../../out/NaughtyAttributes.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>../../out/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>../../out/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>../../out/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="NodeCanvas">
+      <HintPath>../../out/NodeCanvas.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>../../out/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="CloudScripts">
+      <HintPath>../../out/CloudScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayFabAllSDK">
+      <HintPath>../../out/PlayFabAllSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="glPlayFab">
+      <HintPath>../../out/glPlayFab.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>../../out/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>../../out/Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Imported">
+      <HintPath>../../out/Imported.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../../out/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>../../out/Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>../../out/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>../../out/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>../../out/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.unity">
+      <HintPath>../../out/zxing.unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>../../out/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="NativeGallery">
+      <HintPath>../../out/NativeGallery.dll</HintPath>
+    </Reference>
+    <Reference Include="AK.Wwise.Unity.API">
+      <HintPath>../../out/AK.Wwise.Unity.API.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>../../out/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>../../out/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>../../out/Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Rewired_Windows">
+      <HintPath>../../out/Rewired_Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="AK.Wwise.Unity.MonoBehaviour">
+      <HintPath>../../out/AK.Wwise.Unity.MonoBehaviour.dll</HintPath>
+    </Reference>
+    <Reference Include="EpicSdk">
+      <HintPath>../../out/EpicSdk.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
